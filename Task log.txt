@@ -1,0 +1,19 @@
+12-04:
+•	Hao will focus on below process automation:
+1-	Jenkins at 23:00 trigger a job to export PAM package that we are developing to an XML file A.
+2-	After that, Jenkins will trigger another job to import file A to a new location in PAM server (deploy, in reality we will need to deploy it to another server)
+3-	After that, Jenkins run auto test by calling SoapUI.
+4-	Jenkins must be able to capture the test result from SoapUI.
+
+•	Thien will prepare below code and test for demo:
+1-	Write a PAM package, e.g: create an incident, check status, etc.
+2-	Write a small test case in SoapUI project to test that PAM package.
+
+•	Quoc will do below activities:
+1.	Follow up with Raj to create sprint, add issues to sprint in Jira
+2.	Research Jenkins and support team
+
+
+co cach nao hien thi file xml report trên jenkin ? -> -j -M xuất ra những report -> mong muốn show nó trên jenkins 
+-r -> ra test sumary 
+console out chỉ nắm được sơ sơ thôi, nhưng chưa đủ ! 
